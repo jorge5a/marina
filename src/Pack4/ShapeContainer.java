@@ -59,7 +59,7 @@ public class ShapeContainer {
         for (int i = 0; i < geometricShapes.length; i++) {
             System.out.print(i + ",  ");
             if (geometricShapes[i][i] != null) {
-
+                //comentado
                 area += geometricShapes[i][i].calculateArea();
                 System.out.println("i: " + i);
             }
